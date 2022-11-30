@@ -1,9 +1,17 @@
+:root {
+  --primary-color: #4eaa90;
+  --secondary-color: #d68fd0;
+  --background-color: #ededed;
+}
+
 body {
   text-align: center;
   font-family: pt monospace;
-  color: #4eaa90;
+  color: var(--primary-color);
+  background-color: var(--background-color);
 }
 
-.introduction {
-  color: #b9a0f6;
+.introduction,
+.contact-info {
+  color: var(--secondary-color);
 }
