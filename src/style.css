@@ -1,4 +1,9 @@
 body {
+  text-align: center;
   font-family: pt monospace;
   color: #4eaa90;
+}
+
+.introduction {
+  color: #b9a0f6;
 }
